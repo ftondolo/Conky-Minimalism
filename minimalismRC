@@ -85,6 +85,6 @@ conky.text = [[
   ${offset 175}${color #F5E663}[$memperc%]
   ${offset 205}${voffset 2}${color #ffffff}${font Roboto-Bold:size=14}MEM
   ##CORRECT THIS PATH
-  ${image ~/.conky/minimalism/icon.png -p 280,130}
+  ${image ~/.conky/icon.png -p 280,130}
 
 ]];
