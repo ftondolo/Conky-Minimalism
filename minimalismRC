@@ -73,7 +73,7 @@ conky.text = [[
   ${offset 118}${voffset 10}${color #FFFFFF}Up ${offset 10}${color #F5E663}${upspeed enp3s0}
   ##Replace 'enp3s0' with name of your network interface
   ${offset 120}${voffset 5}${font Roboto-Regularsize=12}${color #FFFFFF}TDown   ${color #F8E5EE}${totaldown enp3s0}
-  #${offset 90}${voffset 30}${font Roboto-Regularsize=12}${color #FFFFFF}Song:${offset 21}${color #F5E663}${scroll 17 ${execi 2 ~/.conky/minimalism/cmus-conky}}
+  #${offset 90}${voffset 30}${font Roboto-Regularsize=12}${color #FFFFFF}Song:${offset 21}${color #F5E663}${scroll 17 ${execi 2 ~/.conky/cmus-conky}}
   ${offset 68}${voffset 120}${font Roboto-Regular:size=15}${color #FFFFFF}CPU
   ${offset 188}${voffset 35}${font Roboto-Regular:size=8}Core 0
   ${offset 234}${voffset -15}Core 1
