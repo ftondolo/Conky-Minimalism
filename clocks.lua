@@ -76,7 +76,7 @@ settings_table = {
      max=100,
      bg_colour=0xffffff,
      bg_alpha=0.1,
-     fg_colour=0x607d8b,
+     fg_colour=0xffffff,
      fg_alpha=0.6,
      x=155, y=420,
      radius=70,
@@ -104,7 +104,7 @@ settings_table = {
      max=100,
      bg_colour=0xffffff,
      bg_alpha=0.1,
-     fg_colour=0x00796b,
+     fg_colour=0xf8e5ee,
      fg_alpha=0.6,
      x=155, y=420,
      radius=50,
@@ -118,7 +118,7 @@ settings_table = {
      max=100,
      bg_colour=0xffffff,
      bg_alpha=0.1,
-     fg_colour=0xe53935,
+     fg_colour=0xF5E663,
      fg_alpha=0.6,
      x=155, y=420,
      radius=40,
@@ -132,7 +132,7 @@ settings_table = {
        max=100,
        bg_colour=0xffffff,
        bg_alpha=0.1,
-       fg_colour=0xd7d7d7,
+       fg_colour=0xffffff,
        fg_alpha=0.6,
        x=285, y=590,
        radius=55,
@@ -146,7 +146,7 @@ settings_table = {
        max=100,
        bg_colour=0xffffff,
        bg_alpha=0.1,
-       fg_colour=0xd7d7d7,
+       fg_colour=0xffffff,
        fg_alpha=0.6,
        x=285, y=590,
        radius=70,
@@ -166,7 +166,7 @@ settings_table = {
   clock_y=82
 
 --Colour & alpha of the clock hands
-  clock_colour=0xe53935
+  clock_colour=0xF5E663
   clock_alpha=0.6
 
 --Show the seconds hand ?
@@ -326,10 +326,10 @@ end
   DrawLine(cr,398,155,0,23,4)
   DrawLine(cr,0,155,400,0,4)
   --draw cpu temp bars
-  DrawBars(cr,250,470,30,100,0,rgb_to_r_g_b(0x607d8b))
+  DrawBars(cr,250,470,30,100,0,rgb_to_r_g_b(0xffffff))
   DrawBars(cr,290,470,30,100,1,rgb_to_r_g_b(0x3f51b5))
-  DrawBars(cr,330,470,30,100,2,rgb_to_r_g_b(0x00796b))
-  DrawBars(cr,370,470,30,100,3,rgb_to_r_g_b(0xe53935))
+  DrawBars(cr,330,470,30,100,2,rgb_to_r_g_b(0xf8e5ee))
+  DrawBars(cr,370,470,30,100,3,rgb_to_r_g_b(0xF5E663))
   --draw cpu temp lines
   DrawLine(cr,0,320,348,0,4)
   DrawLine(cr,348,318,0,26,4)
